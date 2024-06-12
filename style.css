@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*Topo*/
+header {
+    background-color: #635555;
+    color: #fff;
+    text-align: center;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.links-topo a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.topo-color {
+    border-bottom: solid 2px rgb(216, 108, 108);
+}
+
+.topo-color:hover {
+    background-color: rgb(216, 108, 108);
+}
+
+body {
+    background-color: #fffff0;
+}
+
+.largura-texto {
+    max-width: 700px;
+    width: 100%;
+    margin: auto;
+}
+
+.largura {
+    max-width: 1100px;
+    width: 100%;
+    margin: auto;
+}
+
+section h1 {
+    text-align: center;
+    margin: 30px 0px;
+}
+
+section p {
+    text-align: justify;
+}
+
+.textinho {
+    margin: 50px 0px;
+}
+
+.textinho p {
+    margin: 10px 0px;
+}
+
+#galeria h2{
+    text-align: center;
+}
+
+.galeria-ajuste img {
+    width: 250px;
+    height: 250px;
+    border-bottom: 1px solid rgb(82, 75, 75);
+}
+
+.galeria-ajuste {
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    max-width: 1100px;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.card1, .card2, .card3, .card4, .card5, .card6, .card7, .card8, .card9, .card10, .card11, .card12{
+    max-width: 300px;
+    width: 100%;
+    height: 330px;
+    border-radius: 20px;
+    background-color: rgb(221, 206, 206);
+    box-shadow: 5px 5px 5px gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    text-shadow: 2px 2px 3px gray;
+}
+
+.linha{
+    background-color: #635555;
+    color: #fff;
+    padding: 20px 0;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#galeria, #cartas {
+    margin-bottom: 50px;
+}
+
+.videos video {
+    width: 100%;
+}
+
+.videos {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.secao video{
+    width: 315px;
+    margin: 10px;
+}
+
+.secao{
+    overflow-x: scroll;
+    display: flex;
+}
+
+.sombra{
+    box-shadow: 10px 10px 10px #939393;
+}
+
+.card1:hover, .secao video:hover {
+    transform: scale(1.10,1.10);
+}
+
+.cartinha {
+    width: 48%;
+    background-color: rgb(221, 206, 206);
+    height: auto;
+    border: #635555 2px solid;
+    border-radius: 20px;
+}
+
+.blocos {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.cartinha h3 {
+    margin-top: 10px;
+    text-align: center;
+    border-bottom: #635555 1px solid;
+}
+
+.largura-nova{
+    width: 90%;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.cartinha img {
+    mix-blend-mode: multiply;
+    width: 50px;
+}
+
+.estrela li, .pergaminho li {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    margin: 15px 0;
+}
+
+.estrela li img, .pergaminho li img {
+    margin-right: 10px;
+}
+
+.teste {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.teste li {
+    margin-bottom: 120px;
+}
+
+.musicas {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tabela tbody tr:nth-of-type(odd) {
+    background-color: #ffffffcc;
+    font-weight: 700;
+    font-size: 18px;
+    color: #000000;
+}
+
+.tabela tr:nth-of-type(even) {
+    background-color: #000000cc;
+    font-size: 18px;
+    color: #fff;
+}
+
+.tabela thead tr {
+    background-color: #000000cc;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 700;
+}
+
+table td, table th {
+    padding: 10px;
+    text-align: center;
+}
+
+.tabela tbody td:nth-child(1) {
+    display: flex;
+    align-items: center;
+}
